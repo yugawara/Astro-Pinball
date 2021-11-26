@@ -1,4 +1,4 @@
-# Astro Pinbal (Under Revision for my self-Tutorial)
+# Astro Pinbal (Forked from the original author's version for my self-Tutorial)
 
 ```Powershell
 # from Powershell, Bash, etc.
