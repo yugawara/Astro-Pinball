@@ -1,5 +1,6 @@
 # Astro Pinbal (Forked from the original author's version for my self-Tutorial)
 
+## How To Play
 ```Powershell
 # from Powershell, Bash, etc.
 git clone https://github.com/yugawara/Astro-Pinball.git
@@ -8,7 +9,9 @@ npm install
 npx http-server .
 http://localhost:8080/
 ```
+To start the music and sound effects, press M key
 
+## ORIGINAL AUTHOR's README below
 This pure Javascript and HTML game strips down a classic arcade game into a more visually appealing and simple (yet addicting) web browser game.
 
 ![screencast](http://res.cloudinary.com/dqr2mejhc/image/upload/c_scale,w_671/v1497831590/astro_x2pxnq.png)
