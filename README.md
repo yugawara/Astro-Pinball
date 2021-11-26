@@ -1,6 +1,13 @@
 # Astro Pinbal (Under Revision for my self-Tutorial)
 
-[LIVE LINK](https://seanperfecto.github.io/Astro-Pinball/)
+```Powershell
+# from Powershell, Bash, etc.
+git clone https://github.com/yugawara/Astro-Pinball.git
+cd Astro-Pinball/
+npm install
+npx http-server .
+http://localhost:8080/
+```
 
 This pure Javascript and HTML game strips down a classic arcade game into a more visually appealing and simple (yet addicting) web browser game.
 
