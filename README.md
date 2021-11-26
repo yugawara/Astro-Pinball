@@ -1,4 +1,4 @@
-# Astro Pinball
+# Astro Pinbal (Under Revision for my self-Tutorial)
 
 [LIVE LINK](https://seanperfecto.github.io/Astro-Pinball/)
 
