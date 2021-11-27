@@ -5,7 +5,6 @@
 # from Powershell, Bash, etc.
 git clone https://github.com/yugawara/Astro-Pinball.git
 cd Astro-Pinball/
-npm install
 npx http-server .
 http://localhost:8080/
 ```
