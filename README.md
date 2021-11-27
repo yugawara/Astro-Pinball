@@ -14,7 +14,7 @@ To start the music and sound effects, press M key
 ## ORIGINAL AUTHOR's README below
 This pure Javascript and HTML game strips down a classic arcade game into a more visually appealing and simple (yet addicting) web browser game.
 
-![screencast](http://res.cloudinary.com/dqr2mejhc/image/upload/c_scale,w_671/v1497831590/astro_x2pxnq.png)
+![screencast](assets/screencast.png)
 
 ## Instructions
 
