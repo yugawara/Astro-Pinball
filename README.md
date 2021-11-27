@@ -49,7 +49,7 @@ With collision detection, the challenge was handling the different shapes that i
 ```javascript
 // ball.js
 
-let distance = Math.sqrt(
+const distance = Math.sqrt(
   Math.pow(this.ballPosX - obj.ballPosX, 2) +
   Math.pow(this.ballPosY - obj.ballPosY, 2));
 return distance < (this.radius + obj.radius);
@@ -60,8 +60,8 @@ But something different such as the flipper (a rectangle), implements different 
 // ball.js
 
 // X and Y distance between the ball and the bump
-let distX = Math.abs(this.ballPosX - (obj.mid.x));
-let distY = Math.abs(this.ballPosY - (obj.mid.y));
+const distX = Math.abs(this.ballPosX - (obj.mid.x));
+const distY = Math.abs(this.ballPosY - (obj.mid.y));
 
 // Distance too far
 if (distX > (obj.halfwidth + this.radius)) { return false; }
@@ -72,8 +72,8 @@ if (distX <= obj.halfwidth) { return true; }
 if (distY <= obj.halfheight) { return true; }
 
 // Checks corners using Pythagorean Theorem
-let dx = distX - obj.halfwidth;
-let dy = distY - obj.halfheight;
+const dx = distX - obj.halfwidth;
+const dy = distY - obj.halfheight;
 return ((dx*dx)+(dy*dy)<=(this.radius*this.radius));
 ```
 
@@ -84,10 +84,10 @@ The second challenge after detecting collisions is changing the pinball's veloci
 ```javascript
 // ball.js
 // Collision with the flipper
-let dd = (this.dnorm.x*obj.vnorm.x + this.dnorm.y*obj.vnorm.y)*2;
+const dd = (this.dnorm.x*obj.vnorm.x + this.dnorm.y*obj.vnorm.y)*2;
 this.refl = {x: (obj.vnorm.x * dd - this.dnorm.x),
                   y: (obj.vnorm.y * dd - this.dnorm.y) };
-let length = Math.sqrt(this.refl.x*this.refl.x + this.refl.y*this.refl.y);
+const length = Math.sqrt(this.refl.x*this.refl.x + this.refl.y*this.refl.y);
 this.ballPosY -= 4;
 this.ballVelX = (this.refl.x/length) * this.speed;
 this.ballVelY = ((this.refl.y/length) * this.speed * 1.1);
