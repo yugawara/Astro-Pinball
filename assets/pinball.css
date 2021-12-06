@@ -100,10 +100,6 @@ span {
   font-size: 17px;
 }
 
-#moon, #mars, #neptune, #mercury, #earth {
-  display: none;
-}
-
 #controls {
   color: #D74F43;
 }
