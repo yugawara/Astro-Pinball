@@ -3,9 +3,15 @@
 ## How To Play
 ```Powershell
 # from Powershell, Bash, etc.
+# npx command (of nodejs) is assumed
+# to be installed, for launching the web server
+# while the Yasu would have preferred to not use the web server and server
+# everything from the file:// protocol,
+# it was too difficult to do.
+
 git clone https://github.com/yugawara/Astro-Pinball.git
 cd Astro-Pinball/
-npx http-server .
+npx live-server .
 http://localhost:8080/
 ```
 To start the music and sound effects, press M key
