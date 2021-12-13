@@ -1,24 +1,34 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Astro Pinball</title>
-    <link rel="stylesheet" type="text/css" href="./assets/pinball.css">
-    <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
-    <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
-    <script type="module" src="lib/pinball_app.js"></script>
-  </head>
-  <body>
-    <div class='pinball-container'>
-      <div class="info">
-        <h1>Milton<br>Keynes</h1>
-        <p>modified for video game programming self-tutorial</p>
+
+<head>
+  <meta charset="utf-8">
+  <title>Astro Pinball</title>
+  <link rel="stylesheet" type="text/css" href="./assets/pinball.css">
+  <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+  <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+  <script type="module" src="lib/pinball_app.js"></script>
+</head>
+
+<body>
+  <div class='pinball-container'>
+    <div class="info">
+      <div class='pinball-container2'>
+        <div>
+          <h1>Milton<br>Keynes</h1>
+          <p>modified for video game programming self-tutorial</p>
+        </div>
+        <div>
+          <h1>Milton<br>Keynes</h1>
+          <p>modified for video game programming self-tutorial</p>
+        </div>
       </div>
-      <canvas id="myCanvas"></canvas>
-      <div class="score">
-        Current Score: <div id="test"></div><br>
-        High Score: <div id="high"></div><br><br>
-        <span><span id='controls'>Controls:</span><br>
+    </div>
+    <canvas id="myCanvas"></canvas>
+    <div class="score">
+      Current Score: <div id="test"></div><br>
+      High Score: <div id="high"></div><br><br>
+      <span><span id='controls'>Controls:</span><br>
         &darr;: Launch Pinball<br>
         &larr;: Left Flipper<br>
         &rarr;: Right Flipper<br>
@@ -29,28 +39,29 @@
         q: Switch Music<br>
 
         <br>
-      </div>
     </div>
-    <audio autoplay loop  muted id='audio' src="assets/Wavecont-Inspiring-Full.mp3">
-      Your browser does not support the audio element.
-    </audio>
+  </div>
+  <audio autoplay loop muted id='audio' src="assets/Wavecont-Inspiring-Full.mp3">
+    Your browser does not support the audio element.
+  </audio>
 
-    <audio id='bell'>
-      <source src="assets/ring.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-    <audio id='thud'>
-      <source src="assets/thud.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-    <audio id='flip'>
-      <source src="assets/softflip.wav" type="audio/wav">
-      Your browser does not support the audio element.
-    </audio>
-    <img src="assets/moon.png" hidden id='moon'/>
-    <img src="assets/mars.png" hidden id='mars'/>
-    <img src="assets/neptune.png" hidden id='neptune'/>
-    <img src="assets/mercury.png" hidden id='mercury'/>
-    <img src="assets/earth.png" hidden id='earth'/>
-  </body>
+  <audio id='bell'>
+    <source src="assets/ring.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+  <audio id='thud'>
+    <source src="assets/thud.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+  <audio id='flip'>
+    <source src="assets/softflip.wav" type="audio/wav">
+    Your browser does not support the audio element.
+  </audio>
+  <img src="assets/moon.png" hidden id='moon' />
+  <img src="assets/mars.png" hidden id='mars' />
+  <img src="assets/neptune.png" hidden id='neptune' />
+  <img src="assets/mercury.png" hidden id='mercury' />
+  <img src="assets/earth.png" hidden id='earth' />
+</body>
+
 </html>

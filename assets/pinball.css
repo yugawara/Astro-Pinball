@@ -34,6 +34,11 @@ canvas {
   justify-content: center;
 }
 
+.pinball-container2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
 .score {
   background-color: #304D5B;
   width: 230px;
