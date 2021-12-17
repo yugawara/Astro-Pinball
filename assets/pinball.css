@@ -12,15 +12,6 @@ body {
   background-repeat: repeat;
 }
 
-/*header {
-  font-family: 'Bungee Outline', cursive;
-  font-size: 72px;
-  color: white;
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
-}*/
-
 canvas {
     background-image: url('/assets/canvas-background.png');
     display: block;
@@ -43,7 +34,7 @@ canvas {
 
 .pinball-container2 > div{
   background-color: #304D5B;
-  margin-bottom: 20px
+  margin-bottom: 20px;
 }
 .score {
   background-color: #304D5B;
